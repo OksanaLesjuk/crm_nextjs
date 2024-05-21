@@ -4,6 +4,7 @@ import AddCompanyButton from "./components/AddCompanyButton";
 import ServerComponent from "./components/ServerComponent";
 import ClientComponent from "./components/ClientComponent";
 import ServerComponentCopy from "./components/ServerComponentCopy";
+import MagicButton from "./components/magic-button";
 
 
 export default function Home() {
@@ -12,10 +13,7 @@ export default function Home() {
     <main>
       <h1 className="text-xl">Home page{new Date().toTimeString()}</h1>
       <AddCompanyButton/>
- <ServerComponent/>
- <ClientComponent>
-  <ServerComponentCopy/>
- </ClientComponent>
+<MagicButton/>
 
     </main>
   );
